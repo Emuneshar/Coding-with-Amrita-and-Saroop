@@ -31,3 +31,17 @@ while True:
     startTime = time.time()
     print("You got a bite!\n Press enter to reel it in!")
     input()
+    endTime = time.time()
+
+    reactionTime = endTime - startTime
+    print("Reeled in after {: .3f} seconds".format(reactionTime))
+
+    if reactionTime < 0.1:
+        print("You reeled it in too fast!")
+    elif reactionTime < timeToCatch:
+        points = fish[catch]
+        score += points
+        print("You caught a {}! It was worth {} points".format(catch, points))
+    else:
+        print("The fish got away!")
+
