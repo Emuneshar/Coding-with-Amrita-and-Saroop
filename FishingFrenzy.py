@@ -14,3 +14,7 @@ fish = {
 
 score = 0
 
+
+while True:
+  print(f"\n")
+
