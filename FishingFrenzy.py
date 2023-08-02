@@ -12,3 +12,5 @@ fish = {
   "salmon": 5
 }
 
+score = 0
+
