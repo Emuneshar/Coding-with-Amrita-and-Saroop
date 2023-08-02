@@ -16,5 +16,9 @@ score = 0
 
 
 while True:
-  print(f"\n")
+    print(f"\nYou have {score} points")
+    fishList = list(fish)
+    catch = random.choice(fishList)
 
+    input("Press enter to cast your line!\n")  
+    print("bloop!")
