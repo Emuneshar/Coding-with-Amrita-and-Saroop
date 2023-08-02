@@ -22,3 +22,12 @@ while True:
 
     input("Press enter to cast your line!\n")  
     print("bloop!")
+
+    waitTime = random.uniform(1,5)
+    time.sleep(waitTime)
+
+    timeToCatch = 1 
+
+    startTime = time.time()
+    print("You got a bite!\n Press enter to reel it in!")
+    input()
