@@ -51,4 +51,13 @@ while level <= len(levels):
       display_a[index_a] = empty
       display_b[index_b] = empty
     
+    time.sleep(1)
+
+    if empty not in display_a:
+      print(f"You beat level {level}!!")
+      level = level + 1
+      break
+
+print("You win!")
+
 
