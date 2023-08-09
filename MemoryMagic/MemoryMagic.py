@@ -44,4 +44,11 @@ while level <= len(levels):
 
     print_displays()
 
+    if display_a[index_a] == display_b[index_b]:
+      print("correct!")
+    else:
+      print("Incorrect!")
+      display_a[index_a] = empty
+      display_b[index_b] = empty
+    
 
