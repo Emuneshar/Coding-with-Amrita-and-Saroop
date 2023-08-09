@@ -36,3 +36,12 @@ while level <= len(levels):
 
     print_displays()
 
+     # input for list a 
+    print("Enter an index for list b")
+    index_b = input(">> ")
+    index_b = int(index_b)
+    display_b[index_b] = list_b[index_b]
+
+    print_displays()
+
+
