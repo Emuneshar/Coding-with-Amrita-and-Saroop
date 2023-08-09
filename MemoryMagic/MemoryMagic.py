@@ -25,3 +25,14 @@ while level <= len(levels):
   display_a = [empty] * len(list_a)
   display_b = [empty] * len(list_b)
 
+  while True:
+    print_displays()
+
+    # input for list a 
+    print("Enter an index for list a")
+    index_a = input(">> ")
+    index_a = int(index_a)
+    display_a[index_a] = list_a[index_a]
+
+    print_displays()
+
