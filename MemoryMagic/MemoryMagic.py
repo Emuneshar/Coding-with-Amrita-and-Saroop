@@ -14,4 +14,14 @@ while level <= len(levels):
   list_a = [] 
   for i in range(level):
     symbol = levels[i]
-    
+    list_a.append(symbol)
+
+  # List b is a copy of list a
+  list_b = list_a.copy()
+
+  random.shuffle(list_a)
+  random.shuffle(list_b)
+
+  display_a = [empty] * len(list_a)
+  display_b = [empty] * len(list_b)
+
